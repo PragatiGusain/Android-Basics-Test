@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8877e7e">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:padding="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Details"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:padding="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name"
+        android:textSize="20dp"
+        android:textColor="#ae0f0f"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="100dp" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:hint="Enter Your Name"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_alignBottom="@id/tv2" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:padding="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Student Address"
+        android:textSize="20dp"
+        android:textColor="#ae0f0f"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="200dp" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:hint="Enter Address"
+        android:inputType="textPostalAddress"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_alignBottom="@id/tv3" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:padding="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Phone No."
+        android:textSize="20dp"
+        android:textColor="#ae0f0f"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="300dp" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:hint="Enter Phone No."
+        android:inputType="phone"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_alignBottom="@id/tv4" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:padding="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student College"
+        android:textSize="20dp"
+        android:textColor="#ae0f0f"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="400dp" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:hint="Enter College"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_alignBottom="@id/tv5" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISPLAY RESULT"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
